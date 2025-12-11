@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fashion_triangles",
+  "info": {
+    "singularName": "fashion-triangle",
+    "pluralName": "fashion-triangles",
+    "displayName": "fashionTriangle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "itemNo": {
+      "type": "string"
+    },
+    "itemName": {
+      "type": "string"
+    },
+    "itemUrl": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "sdBrandName": {
+      "type": "string"
+    },
+    "itemPrice": {
+      "type": "integer"
+    },
+    "sellPrice": {
+      "type": "integer"
+    },
+    "groupItemCnt": {
+      "type": "integer"
+    },
+    "groupNo": {
+      "type": "integer"
+    },
+    "deliveryText": {
+      "type": "string"
+    },
+    "scode": {
+      "type": "string"
+    },
+    "mcode": {
+      "type": "string"
+    },
+    "lcode": {
+      "type": "string"
+    },
+    "isFashionSquareSeller": {
+      "type": "boolean"
+    },
+    "isLmoOfficialSeller": {
+      "type": "boolean"
+    },
+    "isAdult": {
+      "type": "boolean"
+    },
+    "isBigSmileItem": {
+      "type": "boolean"
+    },
+    "isCartVisible": {
+      "type": "boolean"
+    },
+    "isNew": {
+      "type": "boolean"
+    },
+    "reviewPoint": {
+      "displayName": "reviewPoint",
+      "type": "component",
+      "repeatable": false,
+      "component": "product.review-point"
+    },
+    "lmos": {
+      "displayName": "lmos",
+      "type": "component",
+      "repeatable": true,
+      "component": "product.lmos"
+    }
+  }
+}
