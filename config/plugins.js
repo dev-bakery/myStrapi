@@ -5,4 +5,5 @@ module.exports = ({ env }) => ({
       serverPublicHostname: env("HOST", "http://localhost:1337"),
     },
   },
+  upload: false,
 });
