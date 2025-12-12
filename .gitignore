@@ -25,9 +25,6 @@ dist/
 database/
 *.log
 
-# Uploads
-public/uploads/
-public/uploads/**/*
 
 # OS files
 .DS_Store
