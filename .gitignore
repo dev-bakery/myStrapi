@@ -22,7 +22,10 @@ dist/
 *.db
 *.sqlite
 *.sqlite3
-database/
+# Keep database folder structure but ignore database files
+database/*.db
+database/*.sqlite
+database/*.sqlite3
 *.log
 
 
